@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mainview.CustomerInfo_dialog_Controller">
+   <children>
+      <AnchorPane prefHeight="250.0" prefWidth="161.0">
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="88.0" layoutX="54.0" layoutY="38.0" AnchorPane.topAnchor="38.0">
+               <image>
+                  <Image url="@../../../Icons&amp;Images/585e4bf3cb11b227491c339a.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="dialog_Name" alignment="CENTER" layoutX="3.0" layoutY="131.0" prefHeight="20.0" prefWidth="197.0" text="Nyan Swan Aung" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="200.0" prefHeight="250.0" prefWidth="301.0">
+         <children>
+            <VBox prefHeight="250.0" prefWidth="75.0">
+               <children>
+                  <Label text="CID :">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="8.0" top="46.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="10.0" text="NRC :">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="8.0" top="11.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="27.0" text="Phone1 :">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="8.0" top="11.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="44.0" text="Phone2 :">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="8.0" top="11.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="61.0" text="Gmail : ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="8.0" top="11.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="75.0" prefHeight="250.0" prefWidth="225.0">
+               <children>
+                  <VBox prefHeight="32.0" prefWidth="225.0">
+                     <children>
+                        <TextField fx:id="dialog_ID" style="-fx-padding: 5 0 5 0; -fx-text-fill: black;" />
+                        <Line endX="122.5" startX="-100.0" stroke="#00add2" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="13.0" top="40.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="50.0" prefHeight="32.0" prefWidth="225.0">
+                     <children>
+                        <TextField fx:id="dialog_NRC" style="-fx-padding: 5 0 5 0; -fx-text-fill: black;" />
+                        <Line endX="122.5" startX="-100.0" stroke="#00add2" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="13.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="82.0" prefHeight="32.0" prefWidth="225.0">
+                     <children>
+                        <TextField fx:id="dialog_Phone1" style="-fx-padding: 5 0 5 0; -fx-text-fill: black;" />
+                        <Line endX="122.5" startX="-100.0" stroke="#00add2" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="13.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="114.0" prefHeight="32.0" prefWidth="225.0">
+                     <children>
+                        <TextField fx:id="dialog_Phone2" style="-fx-padding: 5 0 5 0; -fx-text-fill: black;" />
+                        <Line endX="122.5" startX="-100.0" stroke="#00add2" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="13.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="146.0" prefHeight="32.0" prefWidth="225.0">
+                     <children>
+                        <TextField fx:id="dialog_Gmail" style="-fx-padding: 5 0 5 0; -fx-text-fill: black;" />
+                        <Line endX="122.5" startX="-100.0" stroke="#00add2" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="13.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

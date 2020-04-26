@@ -1,0 +1,24 @@
+.button:hover{
+	-fx-background-color: #e8784c;
+	-fx-opacity: ;
+	-fx-text-fill: white;
+	-fx-border-radius: 5;
+	-fx-background-radius: 40;
+}
+.button{
+	-fx-text-fill: black;
+	-fx-border-radius: 5;
+	-fx-background-radius: 40;
+	-fx-text-fill: black;
+	-fx-background-color: #86c8d6;
+	
+}
+
+#confrim{
+		-fx-background-color: #86c8d6;
+}
+
+#confirm:hover{
+		-fx-background-color:  #00add2;
+	
+}

@@ -1,0 +1,19 @@
+.button:hover{
+	-fx-background-color: #e8784c;
+	-fx-pref-width: 150;
+	-fx-pref-height: 36;
+	-fx-text-fill: white;
+	
+	
+}
+.button{
+	-fx-background-color:  #86c8d6;
+	-fx-border-color: ;
+	-fx-border-radius: 5;
+	-fx-pref-width: 152;
+	-fx-pref-height: 38;
+	-fx-background-radius: 5;
+	-fx-padding: 5;
+	-fx-text-fill: black;
+}
+

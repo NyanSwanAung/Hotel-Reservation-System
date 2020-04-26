@@ -1,0 +1,16 @@
+.image {
+	   -fx-background-image: url("../Icons/setting2.jpg");
+	   -fx-background-size: 33.5px;
+       -fx-background-repeat: no-repeat;
+	   -fx-background-color: white;
+	   
+	
+}
+
+.image:hover{
+		   -fx-background-color: white;
+		   -fx-background-size: 33.5px;
+           -fx-background-repeat: no-repeat;
+		   -fx-background-image: url("../Icons/setting3.jpg");
+		   
+}

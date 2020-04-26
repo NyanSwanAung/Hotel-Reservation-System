@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="542.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mainview.CustomerListController">
+   <children>
+      <HBox focusTraversable="true" prefHeight="619.0" prefWidth="286.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="149.0" prefWidth="264.0">
+               <HBox.margin>
+                  <Insets bottom="6.5" left="6.5" right="6.5" top="6.5" />
+               </HBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <VBox prefHeight="193.0" prefWidth="266.0">
+                     <children>
+                        <ImageView fitHeight="164.0" fitWidth="251.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Icons&amp;Images/Images/logo.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="14.0" left="7.0" right="7.0" top="7.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Line endX="164.2928924560547" endY="1.6033649444580078E-5" startX="-100.0" />
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="265.0" prefWidth="266.0">
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="264.0" style="-fx-background-color: #00add2; -fx-border-radius: 50;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Icons&amp;Images/Icons/icons8-reservation_2_filled.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button mnemonicParsing="false" onAction="#goReservationPage" prefHeight="38.0" prefWidth="152.0" stylesheets="@../../css/logInButton.css" text="Reservation" HBox.hgrow="ALWAYS">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="264.0" style="-fx-background-color: #00add2;">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Icons&amp;Images/Icons/icons8-bed_filled.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button mnemonicParsing="false" onAction="#goRoomsPage" prefHeight="38.0" prefWidth="157.0" stylesheets="@../../css/logInButton.css" text="Rooms" HBox.hgrow="ALWAYS">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="264.0" style="-fx-background-color: #00add2;">
+                           <children>
+                              <ImageView pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Icons&amp;Images/Icons/icons8-gender_neutral_user_filled.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button mnemonicParsing="false" onAction="#goCustomerListPage" prefHeight="38.0" prefWidth="161.0" stylesheets="@../../css/logInButton.css" text="Customer List" HBox.hgrow="ALWAYS">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="34.0" prefWidth="266.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="66.0" layoutX="39.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Icons&amp;Images/585e4bf3cb11b227491c339a.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="username" layoutX="117.0" layoutY="25.0" prefHeight="22.0" prefWidth="145.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <VBox alignment="CENTER" prefHeight="75.0" prefWidth="264.0">
+                     <children>
+                        <Line endX="100.0" startX="-100.0">
+                           <VBox.margin>
+                              <Insets top="-22.0" />
+                           </VBox.margin>
+                        </Line>
+                        <Button mnemonicParsing="false" onAction="#goSignOut" prefHeight="26.0" prefWidth="85.0" stylesheets="@../../css/signout.css" text="Sign Out">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox layoutX="285.0" prefHeight="619.0" prefWidth="789.0">
+         <children>
+            <VBox layoutX="151.0" prefHeight="48.0" prefWidth="789.0">
+               <children>
+                  <AnchorPane prefHeight="48.0" prefWidth="789.0" style="-fx-background-color: #003366; -fx-border-color: grey;">
+                     <children>
+                        <Text fill="WHITE" layoutX="32.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer List" wrappingWidth="230.5520782470703" x="275.0">
+                           <font>
+                              <Font size="25.0" />
+                           </font></Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="119.0" prefWidth="789.0">
+               <children>
+                  <AnchorPane prefHeight="121.0" prefWidth="789.0" style="-fx-background-color: #003366; -fx-border-color: grey;">
+                     <children>
+                        <VBox layoutX="35.0" layoutY="27.0" AnchorPane.rightAnchor="586.0">
+                           <children>
+                              <TextField fx:id="NameTBox" promptText="  Name" style="-fx-background-color: #003366; -fx-padding: 5 0 5 0; -fx-text-fill: white;" />
+                              <Line endX="50.0" startX="-100.0" stroke="#00add2" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="244.0" layoutY="27.0">
+                           <children>
+                              <TextField fx:id="PhNoTBox" promptText="Phone Number" style="-fx-background-color: #003366; -fx-padding: 5 0 5 0; -fx-text-fill: white;" />
+                              <Line endX="50.0" startX="-100.0" stroke="#00add2" />
+                           </children>
+                        </VBox>
+                        <CheckBox fx:id="check_OldList" layoutX="117.0" layoutY="81.0" mnemonicParsing="false" text="Old List" textFill="WHITE" />
+                        <CheckBox fx:id="check_CurrentList" layoutX="361.0" layoutY="81.0" mnemonicParsing="false" text="Current List" textFill="WHITE" />
+                        <CheckBox fx:id="check_BookedList" layoutX="226.0" layoutY="81.0" mnemonicParsing="false" text="Booked List" textFill="WHITE" />
+                        <VBox layoutX="437.0" layoutY="27.0">
+                           <children>
+                              <TextField fx:id="RoomNoTBox" promptText="Room Number" style="-fx-background-color: #003366; -fx-padding: 5 0 5 0; -fx-text-fill: white;" />
+                              <Line endX="50.0" startX="-100.0" stroke="#00add2" />
+                           </children>
+                        </VBox>
+                        <Button layoutX="660.0" layoutY="23.0" mnemonicParsing="false" onAction="#Search" prefHeight="31.0" prefWidth="82.0" stylesheets="@../../css/search.css" text="Search">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <!--  <Button layoutX="661.0" layoutY="65.0" mnemonicParsing="false" onAction="#Reset" prefHeight="31.0" prefWidth="82.0" stylesheets="@../../css/search.css" text="Reset">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>-->
+                        <RadioButton fx:id="select_all" layoutX="491.0" layoutY="82.0" mnemonicParsing="false" onAction="#Rbutton_select_all" prefHeight="18.0" prefWidth="97.0" text="Select all" textFill="#fff6f6" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="453.0" prefWidth="789.0">
+               <children>
+                  <TableView fx:id="list" prefHeight="458.0" prefWidth="789.0" style="-fx-background-color: white; -fx-border-color: grey;">
+                     <columns>
+                        <TableColumn fx:id="columnCustomerNo" editable="false" prefWidth="47.0" sortable="false" text="No" />
+                        <TableColumn fx:id="columnRoomNo" editable="false" prefWidth="77.0" sortable="false" text="Room No" />
+                        <TableColumn fx:id="columnCustomerName" editable="false" prefWidth="134.0" sortable="false" text="Name" />
+                        <TableColumn fx:id="columnPhNo1" editable="false" prefWidth="112.0" sortable="false" text="Phone Number" />
+                        <TableColumn fx:id="columnReservationTime" editable="false" prefWidth="116.0" sortable="false" text="Reserved Time" />
+                        <TableColumn fx:id="columnStatus" editable="false" prefWidth="98.0" sortable="false" text="Status" />
+                        <TableColumn fx:id="columnCheckInDate" editable="false" minWidth="0.0" prefWidth="114.0" sortable="false" text="Check In Date" />
+                        <TableColumn fx:id="columnCheckOutDate" editable="false" prefWidth="114.0" sortable="false" text="Check Out Date" />
+                        <TableColumn fx:id="columnActualCheckInDate" editable="false" prefWidth="114.0" sortable="false" text="Actual Check In Date" />
+                        <TableColumn fx:id="columnActualCheckOutDate" editable="false" prefWidth="114.0" sortable="false" text="Actual Check Out Date" />
+                     </columns>
+                  </TableView>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
