@@ -1,3 +1,7 @@
+## About
+
+  Submitted in 2018, my second year group project at my university
+
 <h1 align="center">
   <br>
    Hotel Reservation System
