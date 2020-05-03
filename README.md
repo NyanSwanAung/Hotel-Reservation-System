@@ -1,7 +1,12 @@
 ## About
 
-  Submitted in 2018, my second year group project at my university
+  Submitted in 2019, my second year group project at my university
 
+## Description
+
+  A hotel receptionist can effortlessly check-in and check-out customers, search the available rooms depending on their desire of luxary suites and view the customer list with filteration of old customers, currrent customers and booked customers.
+
+  
 <h1 align="center">
   <br>
    Hotel Reservation System
